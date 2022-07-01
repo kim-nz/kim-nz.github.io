@@ -20,8 +20,7 @@ body {
   color: rgb(240, 160, 234);
   font-variant: small-caps;
   border: 0;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin: 0;
 }
 .header3 {
   font-family: 'Yu Gothic Light';
@@ -79,17 +78,4 @@ body {
   color: whitesmoke;
   font-size: 10px;
   text-align: center;
-}
-.list {
-  font-family:'catamaran';
-  font-size: 20px;
-  text-align: justify;
-  background-color: white;
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
-  opacity: 85%;
 }
