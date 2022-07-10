@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8"><head>
     <title>K.A.</title>
-    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;300;400&family=Catamaran:wght@100&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;300;400&family=Catamaran:wght@100&family=The+Nautigal:wght@700&display=swap" rel="stylesheet"> 
     </head>
-  <style>
+  
+<style>
     body {
       background-image: url(whangamata.jpg);
       background-size: cover;
@@ -15,73 +16,104 @@
       background-position: center;
       object-position: center;
     }
-    .h1 {
+    .topHeader {
       font-family: 'The Nautigal', cursive;
       font-size: 100px;
       text-align: center;
       color: black;
-      background-color: whitesmoke;
+      background-color:rgb(255, 255, 255, 0.5);
       position: sticky;
       border: 0;
       padding: 10px;
       padding-bottom: 0;
       margin: 0;
-      opacity: 0.5;
     }
-    .h2 {
+    .subHeader {
       font-family: 'Yu Gothic Light';
       font-size: 20px;
       text-align:center;
-      color: #78767f;
+      color: black;
       font-variant: small-caps;
-      background-color: whitesmoke;
+      background-color: rgb(255, 255, 255, 0.5);
       border: 0;
       padding: 15px;
       margin: 0;
-      opacity: 0.5;
-    }  
-  .button {
-  background-color: rgb(240, 160, 234);
-  color: black;
-  font-family: 'arima';
-  font-size: 30px;
-  text-align: center;
-  border: none;
-  border-radius: 50%;
-  padding: 20px;
-  width: 150px;
-  height: 150px;
-  cursor: pointer;
-  margin: 50px;
-  }
-  .buttonsmalltext {
-  background-color: rgb(240, 160, 234);
-  color: black;
-  font-family: 'arima';
-  font-size: 20px;
-  text-align: center;
-  border: none;
-  border-radius: 50%;
-  padding: 20px;
-  width: 150px;
-  height: 150px;
-  cursor: pointer;
-  margin: 50px;
-  }
-  .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-     } 
+      margin-bottom: 40px;
+    }
+    .aboutMeButton {
+      background-color: rgb(216, 176, 204);
+      color: black;
+      font-family: 'Yu Gothic Light';
+      font-size: 20px;
+      text-align: center;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+      margin: 40px;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    .flexboxContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-around;
+    }
+    .blogCard {
+      min-height: 150px;
+      padding: 1em;
+      margin: 20px;
+      border-radius: 2%;
+      background-color: rgb(255, 255, 255, 0.8);
+    }
+    .blogCardHeading {
+      font-family: 'Yu Gothic';
+      font-size: 30px;
+      color:rgb(223, 99, 212);
+      text-align:center;
+      border-bottom: 1px solid black 
+    }
+    .blogCardContent {
+      font-family: 'catamaran';
+      font-size: 20px;
+      color:black;
+     }
+
 </style>
 
-  <body>
-    <h1 class="h1">Kim's Blog</h1>
-    <h2 class="h2">(or, a work in progress) </h2> 
-    <button class="button center"><a href="aboutme.html">About Me</a></button>
-    <button class="button center"><a href="blog-template.html"> Blog</a></button>
-    <button class="buttonsmalltext center"><a href="blog-template.html#MBP">Margins, Borders & Padding</a></button>
-    <button class="button center"><a href="learning-plan.html"> Learning Plan</a></button>
-    <button class="buttonsmalltext center"><a href="identity-values.html"> Identity & Values</a></button>   
-  </body>
+<body>
+
+  <h1 class="topHeader">Kim's Blog</h1>
+  <h2 class="subHeader">(or, a work in progress) </h2> 
+
+  <section class="flexboxContainer">
+  <div class="blogCard">
+    <h2 class="blogCardHeading">Sprint 1</h2>
+    <p class="blogCardContent"><a href="identity-values.html">Identity & Values</a></p>
+  </div>
+
+  <div class="blogCard">
+    <h2 class="blogCardHeading">Sprint 2</h2>
+    <p class="blogCardContent"><a href="margins_borders_padding.html">Margins, Borders & Padding</a></p>
+    <p class="blogCardContent"><a href="learning-plan.html">Learning Plan</a></p> 
+  </div>
+
+  <div class="blogCard">
+    <h2 class="blogCardHeading">Sprint 3</h2>
+    <p class="blogCardContent"><a href="emotional-intelligence.html">IQ vs EQ</a></p>
+    <p class="blogCardContent"><a href="javascript-dom.html">JavaScript & The DOM</a></p>
+  </div>
+
+  <div class="blogCard">
+    <h2 class="blogCardHeading">About Me</h2>
+    <p class="blogCardContent"><a href="aboutme.html">Everything you need to know about me</a></p>
+  </div>
+
+</section>
+</body>
 </html>

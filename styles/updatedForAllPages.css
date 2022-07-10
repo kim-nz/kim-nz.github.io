@@ -1,0 +1,104 @@
+body {
+  background-color: #d0cbd7;
+}
+.header1 {
+  font-family: 'Yu Gothic Light';
+  font-size: 70px;
+  text-align:center;
+  color:  #2c2b2d;
+  font-variant: small-caps;
+  border: 0;
+}
+.header2 {
+  font-family: 'Yu Gothic Light';
+  font-size: 25px;
+  text-align:center;
+  color: rgb(190, 126, 185);
+  font-variant: small-caps;
+  border: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.header3 {
+  font-family: 'Yu Gothic Light';
+  font-size: 15px;
+  color: white;
+  border: 0;
+  margin: 60px; 
+}
+.p {
+  font-family:'catamaran';
+  font-size: 20px;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.list {  
+  font-family:'catamaran';
+  font-size: 20px;
+  text-align: justify;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+  padding-left: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.numberedList {  
+  font-family:'catamaran';
+  font-size: 20px;
+  text-align: justify;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+  padding-left: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+.roundPic {
+  max-width:15%;
+  height:auto;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.homepage-button {
+  font-family: 'arima';
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.img {
+  opacity: 100%;
+}
+.functionImages {
+  max-width: 70%;
+}
+.boxmodel {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  max-height: auto;
+}
+.figcap {
+  font-size: 10px;
+  font-family:'catamaran';
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0;
+}
