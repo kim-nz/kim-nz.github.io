@@ -40,25 +40,6 @@
       margin: 0;
       margin-bottom: 40px;
     }
-    .aboutMeButton {
-      background-color: rgb(216, 176, 204);
-      color: black;
-      font-family: 'Yu Gothic Light';
-      font-size: 20px;
-      text-align: center;
-      border: none;
-      border-radius: 50%;
-      padding: 15px;
-      width: 100px;
-      height: 100px;
-      cursor: pointer;
-      margin: 40px;
-    }
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    } 
     .flexboxContainer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -83,6 +64,47 @@
       font-size: 20px;
       color:black;
      }
+
+
+     @media screen and (max-width: 480px){
+      .flexboxContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+      .blogCard {
+        min-height: 100px;
+    }
+      .blogCardHeading {
+        font-size: 20px;
+      }
+      .blogCardContent {
+        font-size: 10px;
+     }
+     }
+     @media screen and (max-width: 1020px) {
+    }
+      .blogCardHeading {
+        font-size: 20px;
+      }
+      .blogCardContent {
+        font-size: 15px;
+     }
+     @media screen and (min-width: 1020px){
+      .flexboxContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+      .blogCard {
+        min-height: 150px;
+    }
+      .blogCardHeading {
+        font-size: 30px;
+      }
+      .blogCardContent {
+        font-size: 20px;
+     }
+     }
+
+
+
 
 </style>
 
